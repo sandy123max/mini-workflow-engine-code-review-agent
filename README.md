@@ -18,6 +18,7 @@ It demonstrates:
 |------|---------|
 | `app/registry.py` | Tool registry + function execution |
 | `app/graph_engine.py` | Graph creation + run loop + in-memory run store |
+| `app/models.py` | Pydantic models defining NodeSpec, GraphSpec, RunRequest |
 | `app/workflows/code_review.py` | Implementation of agent workflow nodes |
 | `app/main.py` | FastAPI endpoints |
 | `requirements.txt` | Dependencies |
